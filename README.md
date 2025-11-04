@@ -20,3 +20,8 @@ This repo contains the **engine** (core calculations) and a **Tkinter GUI** for 
 See **`examples/`** for a tiny sample input and instructions (`HOW_TO_RUN.txt`, coming soon).
 
 ## Repository structure
+app_gui/      # Tkinter app (buttons/windows); calls the engine
+tool_engine/  # Core calculations: I/O, preprocessing, analysis, reporting
+examples/     # Small sample data and how-to-run notes
+requirements.txt
+LICENSE
