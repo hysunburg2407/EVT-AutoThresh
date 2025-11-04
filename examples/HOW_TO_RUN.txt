@@ -1,0 +1,18 @@
+How to run the sample (private pre-release)
+
+1) Open the GUI script:
+   app_gui / gui plus processing (CP 15) Multiple files processing.py
+
+2) Click the button to select files and choose the sample CSV from this folder.
+
+3) Run the process. The tool will produce:
+   - A per-file results table (thresholds, diagnostics)
+   - A summary table if multiple files are selected
+   - Optional plots, if enabled
+
+Inputs expected:
+- CSV with two columns: date, value
+
+Notes:
+- Repo stays private until patent filing is complete.
+- For the manuscript, a frozen tag will be created: v0.1.0-paper.
