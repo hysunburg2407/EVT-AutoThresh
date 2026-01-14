@@ -1,18 +1,36 @@
-How to run the sample (private pre-release)
+EVT-AutoThresh — Quick Run Guide (GUI)
 
-1) Open the GUI script:
-   app_gui / gui plus processing (CP 15) Multiple files processing.py
+1) Download the repo
+   - Click green "Code" button on GitHub → "Download ZIP"
+   - Extract the ZIP somewhere on your computer.
 
-2) Click the button to select files and choose the sample CSV from this folder.
+2) Install Python
+   - Install Python 3.10+ (3.11 is fine).
+   - During install, tick: "Add Python to PATH".
 
-3) Run the process. The tool will produce:
-   - A per-file results table (thresholds, diagnostics)
-   - A summary table if multiple files are selected
-   - Optional plots, if enabled
+3) Install dependencies
+   Open Command Prompt (Windows) in the repo folder and run:
+     pip install -r requirements.txt
 
-Inputs expected:
-- CSV with two columns: date, value
+4) Run the GUI
+   - Go to the folder: app_gui/
+   - Find the main GUI python file (named: main.py)
+   - Run it from repo root like:
+     python app_gui/main.py
 
-Notes:
-- Repo stays private until patent filing is complete.
-- For the manuscript, a frozen tag will be created: v0.1.0-paper.
+5) Example data
+   - This folder (examples/) is meant to store a tiny sample dataset + sample outputs.
+   - If you don’t see sample CSVs yet, you can drop 1–2 CSV files here and test.
+
+Input format (expected)
+- CSV files with two columns:
+    date, value
+- date: any format pandas can parse
+- value: rainfall value (numeric)
+
+If you face any error
+- First check Python is available:  python --version
+- Then check pip:             pip --version
+- Then re-install requirements:
+    pip install -r requirements.txt
+- Still facing errors? Drop a mail: shubamdixit95@gmail.com
