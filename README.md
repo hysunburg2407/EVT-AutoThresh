@@ -3,6 +3,14 @@
 Automatic threshold selection for rainfall extremes using EVT.  
 This repo contains the **engine** (core calculations) and a **Tkinter GUI** for easy use.
 
+## Quickstart (GUI)
+
+Run:
+pip install -r requirements.txt
+python app_gui/main.py
+
+More details: see `examples/HOW_TO_RUN.txt`.
+
 ## Who is this for?
 - **Non-coders**: use the GUI (`app_gui`) to run the tool with buttons.
 - **Researchers/Power users**: use the engine (`tool_engine`) to script batch runs.
