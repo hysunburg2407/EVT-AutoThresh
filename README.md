@@ -25,7 +25,7 @@ More details: see `examples/HOW_TO_RUN.txt`.
 - Optional plots for reporting.
 
 ## How to try (example)
-See **`examples/`** for a tiny sample input and instructions (`HOW_TO_RUN.txt`, coming soon).
+See **`examples/`** for a tiny sample input and instructions (`HOW_TO_RUN.txt`).
 
 ## Repository structure
 - app_gui/      # Tkinter app (buttons/windows); calls the engine
