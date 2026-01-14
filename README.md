@@ -6,8 +6,8 @@ This repo contains the **engine** (core calculations) and a **Tkinter GUI** for 
 ## Quickstart (GUI)
 
 Run:
-pip install -r requirements.txt
-python app_gui/main.py
+- pip install -r requirements.txt
+- python app_gui/main.py
 
 More details: see `examples/HOW_TO_RUN.txt`.
 
