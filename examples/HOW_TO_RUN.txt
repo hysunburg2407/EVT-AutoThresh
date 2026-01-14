@@ -12,15 +12,13 @@ EVT-AutoThresh — Quick Run Guide (GUI)
    Open Command Prompt (Windows) in the repo folder and run:
      pip install -r requirements.txt
 
-4) Run the GUI
-   - Go to the folder: app_gui/
-   - Find the main GUI python file (named: main.py)
-   - Run it from repo root like:
-     python app_gui/main.py
+4) Run the tool (GUI)
+   From the repo root, run:
+     python EVT_AutoThresh.py
 
-5) Example data
-   - This folder (examples/) is meant to store a tiny sample dataset + sample outputs.
-   - If you don’t see sample CSVs yet, you can drop 1–2 CSV files here and test.
+5) Try the example files
+   - This folder contains sample CSV files (e.g., GP 3816.csv, GP 3820.csv, GP 4356.csv).
+   - Use the GUI to select one or more CSV files and run the analysis.
 
 Input format (expected)
 - CSV files with two columns:
@@ -33,4 +31,4 @@ If you face any error
 - Then check pip:             pip --version
 - Then re-install requirements:
     pip install -r requirements.txt
-- Still facing errors? Drop a mail: shubamdixit95@gmail.com
+- Still facing errors? Email: shubamdixit95@gmail.com
