@@ -1,35 +1,35 @@
 # EVT-AutoThresh
 
 Automatic threshold selection for rainfall extremes using EVT.  
-This repo contains the **engine** (core calculations) and a **Tkinter GUI** for easy use.
+This repository provides the complete tool (**Tkinter GUI + core logic**) in a **single Python file** for easy review and use.
 
 ## Quickstart (GUI)
 
-Run:
+Run (from the repository root):
+
 - pip install -r requirements.txt
-- python app_gui/main.py
+- python EVT_AutoThresh.py
 
 More details: see `examples/HOW_TO_RUN.txt`.
 
 ## Who is this for?
-- **Non-coders**: use the GUI (`app_gui`) to run the tool with buttons.
-- **Researchers/Power users**: use the engine (`tool_engine`) to script batch runs.
+- **Anyone**: download the repo and run the tool with the commands above.
+- **Reviewers/Researchers**: full source code is provided in `EVT_AutoThresh.py` for transparency and reproducibility.
 
 ## Inputs
 - Time series files (CSV) with two columns: `date`, `value` (any date format pandas can parse).
 - Multiple files can be processed in one run.
 
 ## Outputs
-- Per-file results table (threshold(s), diagnostics).
+- Per-file results table (selected threshold and key diagnostics).
 - Summary table across all files.
-- Optional plots for reporting.
+- Optional diagnostic plots for reporting (if enabled in the GUI).
 
 ## How to try (example)
-See **`examples/`** for a tiny sample input and instructions (`HOW_TO_RUN.txt`).
+See **`examples/`** for sample input files and instructions (`HOW_TO_RUN.txt`).
 
 ## Repository structure
-- app_gui/      # Tkinter app (buttons/windows); calls the engine
-- tool_engine/  # Core calculations: I/O, preprocessing, analysis, reporting
-- examples/     # Small sample data and how-to-run notes
-- requirements.txt
-- LICENSE
+- `EVT_AutoThresh.py` : complete tool (GUI + core logic)
+- `examples/` : sample rainfall CSV files + run guide
+- `requirements.txt`
+- `LICENSE`
