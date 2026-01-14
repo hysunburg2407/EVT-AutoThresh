@@ -17,7 +17,7 @@ Each file is a daily rainfall time series with two columns:
    - `pip install -r requirements.txt`
 
 2. Start the GUI:
-   - `python app_gui/main.py`
+   - `python EVT_AutoThresh.py`
 
 3. In the GUI, select any of the example CSV files above as input and run the analysis.
 
