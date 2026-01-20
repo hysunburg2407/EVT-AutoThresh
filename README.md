@@ -31,8 +31,3 @@ More details: see `examples/HOW_TO_RUN.txt`.
 ## How to try (example)
 See **`examples/`** for sample input files and instructions (`HOW_TO_RUN.txt`).
 
-## Repository structure
-- `EVT_AutoThresh.py` : complete tool (GUI + core logic)
-- `examples/` : sample rainfall CSV files + run guide
-- `requirements.txt`
-- `LICENSE`
