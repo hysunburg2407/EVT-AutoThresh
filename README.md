@@ -1,4 +1,4 @@
-# EVT-AutoThresh
+# EVT-AutoThresh: A GUI tool to automate the Threshold Selection process for extreme events extraction under Extreme Value Theory assumptions
 
 Automatic threshold selection for extreme events analysis using EVT.  
 This repository provides the complete tool (**Tkinter GUI + core logic**) in a **single Python file** for easy review and use.
